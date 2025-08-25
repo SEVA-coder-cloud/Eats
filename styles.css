@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
 body {
   display: flex;
+  justify-content: center;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
 }
@@ -10,12 +11,14 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 1440;
+  height: 2979;
+  opacity: 1;
 }
 
 .foter {
   width: 1440;
   height: 2979;
-  angle: 0 deg;
   opacity: 1;
   display: flex;
   justify-content: center;
@@ -38,7 +41,6 @@ body {
   background: rgb(255, 255, 255);
   font-weight: 700;
   font-size: 40px;
-  leading-trim: NONE;
   line-height: 57px;
   letter-spacing: 0.2px;
   text-align: center;
@@ -48,7 +50,6 @@ body {
 .full-img > p {
   font-weight: 500;
   font-size: 24px;
-  leading-trim: NONE;
   line-height: 38px;
   letter-spacing: 0.2px;
   text-align: center;
@@ -72,7 +73,9 @@ body {
   justify-content: center;
   align-content: center;
   background: rgb(250, 74, 12);
+  color: #f3f3f3;
   border-radius: 10px;
+  border: none;
 }
 
 .too-button-foter > button:last-child {
@@ -84,13 +87,13 @@ body {
   height: 60;
   opacity: 1;
   border-width: 1px;
+  border: 16px solid #f3f3f3;
+  color: #f3f3f3;
 }
 
 .down-foter {
   width: 1210;
   height: 133;
-  top: 735px;
-  left: 115px;
   opacity: 1;
   display: flex;
   justify-content: space-around;
@@ -104,7 +107,11 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 12px;
-  leading-trim: NONE;
   line-height: 18px;
   text-align: right;
+}
+
+.down-foter > img {
+  height: 120px;
+  width: 240px;
 }/*# sourceMappingURL=styles.css.map */
