@@ -12,5 +12,13 @@ body {
 .foter {
   width: 1440;
   height: 2979;
+  angle: 0 deg;
   opacity: 1;
 }
+
+.full-img {
+  width: 1440;
+  height: 516;
+  opacity: 1;
+  background-image: url("./#\ content\ logo\ light.png");
+}/*# sourceMappingURL=styles.css.map */
